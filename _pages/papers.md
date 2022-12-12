@@ -14,6 +14,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> Working Papers </center>
 - - -
 
+**Log-like? ATEs defined with zero outcomes are (arbitrarily) scale-dependent** (with Jiafeng Chen). 2022.<br/>
+<small>[ <a href="#/" onclick="visib('log0')">Abstract</a> | [Draft][log0-draft] ] </small>
+
+<div id="log0" style="display: none; text-align: justify; line-height: 1.2" ><small>
+Researchers frequently estimate the average treatment effect (ATE) in logs, which has the desirable property that its units approximate percentages. When the outcome takes on zero
+values, researchers often use alternative transformations (e.g., $\log(1+Y)$, $\text{arcsinh}(Y)$) that behave like $\log(Y)$ for large values of $Y$, and interpret the units
+as percentages. In this paper, we show that ATEs for transformations other than $\log(Y)$ cannot be interpreted as percentages, at least if one imposes the seemingly reasonable
+requirement that a percentage does not depend on the original scaling of the outcome (e.g. dollars versus cents). We first show that if $m(y)$ is a function that behaves like
+$\log(y)$ for large values of $y$ and the treatment affects the probability that $Y=0$, then the ATE for $m(Y)$ can be made arbitrarily large or small in magnitude by re-scaling
+the units of $Y$. Moreover, we show that any parameter of the form $\theta_g = E[ g(Y(1),Y(0)) ]$ is necessarily scale dependent if it is point-identified and defined with zero-valued outcomes. 
+We conclude by outlining a variety of options available to empirical researchers dealing with zero-valued outcomes, including (i) estimating ATEs for normalized outcomes, (ii) explicitly calibrating the value placed on the extensive versus intensive margins, or 
+(iii) estimating separate effects for the intensive and extensive margins.
+</small><br><br/></div>
+
+[design-based-arxiv]: https://arxiv.org/pdf/2008.00602.pdf
+
 
 **Design-Based Uncertainty for Quasi-Experiments** (with Ashesh Rambachan). 2022.<br/>
 <small>[ <a href="#/" onclick="visib('design-based')">Abstract</a> | [Draft][design-based-arxiv] ] </small>
@@ -22,7 +38,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 This paper develops a design-based theory of uncertainty that is suitable for analyzing quasi-experimental settings, such as difference-in-differences (DiD). A key feature of our framework is that each unit has an idiosyncratic treatment probability that is unknown to the researcher and may be related to the potential outcomes. We derive formulas for the bias of common estimators (including DiD), and provide conditions under which they are unbiased for an intrepretable causal estimand (e.g., analogs to the ATE or ATT). We further show that when the finite population is large, conventional standard errors are valid but typically conservative estimates of the variance of the estimator over the randomization distribution. An interesting feature of our framework is that conventional standard errors tend to become more conservative when treatment probabilities vary across units. This conservativeness helps to (partially) mitigate the undercoverage of confidence intervals when the estimator is biased. Thus, for example, confidence intervals for the DiD estimator can have correct coverage for the average treatment effect on the treated even if the parallel trends assumption does not hold exactly. We show that these dynamics can be important in simulations calibrated to real labor-market data. Our results also have implications for the appropriate level to cluster standard errors, and for the analysis of linear covariate adjustment and instrumental variables.
 </small><br><br/></div>
 
-[design-based-arxiv]: https://arxiv.org/pdf/2008.00602.pdf
+[log0-draft]:{{ site.baseurl }}{% link assets/files/LogUniqueHOD0_Draft.pdf %}
 
 
 
