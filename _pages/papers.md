@@ -14,7 +14,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> Working Papers </center>
 - - -
 
-**Log-like? ATEs defined with zero outcomes are (arbitrarily) scale-dependent** (with Jiafeng Chen). 2022.<br/>
+**Log-like? Identified ATEs defined with zero-valued outcomes are (arbitrarily) scale-dependent** (with Jiafeng Chen). 2022.<br/>
 <small>[ <a href="#/" onclick="visib('log0')">Abstract</a> | [Draft][log0-draft] ] </small>
 
 <div id="log0" style="display: none; text-align: justify; line-height: 1.2" ><small>
