@@ -14,18 +14,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> Working Papers </center>
 - - -
 
-**Log-like? Identified ATEs defined with zero-valued outcomes are (arbitrarily) scale-dependent** (with Jiafeng Chen). 2022.<br/>
+**Log-like? Identified ATEs defined with zero-valued outcomes are (arbitrarily) scale-dependent** (with Jiafeng Chen). 2023.<br/>
 <small>[ <a href="#/" onclick="visib('log0')">Abstract</a> | [Draft][log0-draft] ] </small>
 
 <div id="log0" style="display: none; text-align: justify; line-height: 1.2" ><small>
-Researchers frequently estimate the average treatment effect (ATE) in logs, which has the desirable property that its units approximate percentages. When the outcome takes on zero
-values, researchers often use alternative transformations (e.g., $\log(1+Y)$, $\text{arcsinh}(Y)$) that behave like $\log(Y)$ for large values of $Y$, and interpret the units
-as percentages. In this paper, we show that ATEs for transformations other than $\log(Y)$ cannot be interpreted as percentages, at least if one imposes the seemingly reasonable
-requirement that a percentage does not depend on the original scaling of the outcome (e.g. dollars versus cents). We first show that if $m(y)$ is a function that behaves like
-$\log(y)$ for large values of $y$ and the treatment affects the probability that $Y=0$, then the ATE for $m(Y)$ can be made arbitrarily large or small in magnitude by re-scaling
-the units of $Y$. Moreover, we show that any parameter of the form $\theta_g = E[ g(Y(1),Y(0)) ]$ is necessarily scale dependent if it is point-identified and defined with zero-valued outcomes. 
-We conclude by outlining a variety of options available to empirical researchers dealing with zero-valued outcomes, including (i) estimating ATEs for normalized outcomes, (ii) explicitly calibrating the value placed on the extensive versus intensive margins, or 
-(iii) estimating separate effects for the intensive and extensive margins.
+Researchers frequently estimate the average treatment effect (ATE) in logs, which has the desirable property that its units approximate percentages. When the outcome takes on zero values, researchers often use alternative transformations (e.g., log(1+Y), arcsinh(Y)) that behave like log(Y) for large values of Y, and interpret the units as percentages. In this paper, we show that ATEs for transformations other than log(Y) cannot be interpreted as percentages, at least if one imposes the requirement that a percentage does not depend on the original scaling of the outcome (e.g. dollars versus cents). We first show that if m(y) is a function that behaves like log(y) for large values of y and the treatment affects the probability that Y=0, then the ATE for m(Y) can be made arbitrarily large or small in magnitude by re-scaling the units of Y. More generally, we show that any parameter of the form θ=E[g(Y(1),Y(0))] that is well-defined with zero-valued outcomes cannot be both scale-invariant and point-identified. Thus, researchers must either consider parameters outside of this class, or give up on either scale-invariance or point-identification. We conclude by outlining a variety of options available to empirical researchers dealing with zero-valued outcomes, including (i) estimating ATEs for normalized outcomes, (ii) explicitly calibrating the value placed on the extensive versus intensive margins, or (iii) estimating separate effects for the intensive and extensive margins.
 </small><br><br/></div>
 
 [design-based-arxiv]: https://arxiv.org/pdf/2008.00602.pdf
