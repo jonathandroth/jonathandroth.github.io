@@ -79,7 +79,7 @@ This paper studies teacher attrition in Wisconsin following Act 10, a policy cha
 [Previously titled "An Honest Approach to Parallel Trends"] (with Ashesh Rambachan). 2022.
 *Forthcoming, Review of Economic Studies*
 <br/>
-<small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][1] | [JMP Version (old)][3] | [R package][hpt-package] ] </small>
+<small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][1] | [JMP Version (old)][3] | Packages: [R][hpt-package] [Stata][hpt-package-stata] ] </small>
 
 <div id="hpt" style="display: none; text-align: justify; line-height: 1.2" ><small>
 This paper proposes tools for robust inference in difference-in-differences and event-study designs where the parallel trends assumption may be violated. Instead of requiring that parallel trends holds exactly, we impose restrictions on how different the post-treatment violations of parallel trends can be from the pre-treatment differences in trends ("pre-trends"). The causal parameter of interest is partially identified under these restrictions. We introduce two approaches that guarantee uniformly valid inference under the imposed restrictions, and we derive novel results showing that they have desirable power properties in our context. We illustrate how economic knowledge can inform the restrictions on the possible violations of parallel trends in two economic applications. We also highlight how our approach can be used to conduct sensitivity analyses showing what causal conclusions can be drawn under various restrictions on the possible violations of the parallel trends assumption.
@@ -89,7 +89,7 @@ This paper proposes tools for robust inference in difference-in-differences and 
 [2]: {{ site.baseurl }}{% link assets/files/HonestParallelTrends_Supp.pdf %}
 [3]: {{ site.baseurl }}{% link assets/files/roth_jmp_honestparalleltrends_main_jmp_version.pdf %}
 [hpt-package]: https://github.com/asheshrambachan/HonestDiD
-
+[hpt-package-stata]: https://github.com/mcaceresb/stata-honestdid#honestdid
 
 
 **Inference for Linear Conditional Moment Inequalities** (with Isaiah Andrews and Ariel Pakes). 2022.
