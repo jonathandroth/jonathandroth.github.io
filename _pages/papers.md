@@ -51,16 +51,6 @@ This paper studies efficient estimation of causal effects in settings where ther
 
 
 
-**What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature** (with Pedro Sant'Anna, Alyssa Bilinski, and John Poe). 2022. *Conditionally accepted, Journal of Econometrics*
-<br/>
-<small>[ <a href="#/" onclick="visib('did-review')">Abstract</a> | [Draft][did-review-draft] ] </small>
-
-<div id="did-review" style="display: none; text-align: justify; line-height: 1.2" ><small>
-This paper synthesizes recent advances in the econometrics of difference-in-differences (DiD) and provides concrete recommendations for practitioners. We begin by articulating a simple set of "canonical" assumptions under which the econometrics of DiD are well-understood. We then argue that recent advances in DiD methods can be broadly classified as relaxing some components of the canonical DiD setup, with a focus on (i) multiple periods and variation in treatment timing, (ii) potential violations of parallel trends, or (iii) alternative frameworks for inference. Our discussion highlights the different ways that the DiD literature has advanced beyond the canonical model, and helps to clarify when each of the papers will be relevant for empirical work. We conclude by discussing some promising areas for future research.
-</small><br><br/></div>
-
-[did-review-draft]:{{ site.baseurl }}{% link assets/files/DiD_Review_Paper.pdf %}
-
 
 **Union Reform and Teacher Turnover: Evidence from Wisconsin's Act 10**. 2019.
 <br/>
@@ -75,6 +65,17 @@ This paper studies teacher attrition in Wisconsin following Act 10, a policy cha
 
 # <center> Published and Forthcoming Papers </center>
 - - -
+
+**What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature** (with Pedro Sant'Anna, Alyssa Bilinski, and John Poe). 2022. *Forthcoming, Journal of Econometrics*
+<br/>
+<small>[ <a href="#/" onclick="visib('did-review')">Abstract</a> | [Draft][did-review-draft] ] </small>
+
+<div id="did-review" style="display: none; text-align: justify; line-height: 1.2" ><small>
+This paper synthesizes recent advances in the econometrics of difference-in-differences (DiD) and provides concrete recommendations for practitioners. We begin by articulating a simple set of "canonical" assumptions under which the econometrics of DiD are well-understood. We then argue that recent advances in DiD methods can be broadly classified as relaxing some components of the canonical DiD setup, with a focus on (i) multiple periods and variation in treatment timing, (ii) potential violations of parallel trends, or (iii) alternative frameworks for inference. Our discussion highlights the different ways that the DiD literature has advanced beyond the canonical model, and helps to clarify when each of the papers will be relevant for empirical work. We conclude by discussing some promising areas for future research.
+</small><br><br/></div>
+
+[did-review-draft]:{{ site.baseurl }}{% link assets/files/DiD_Review_Paper.pdf %}
+
 
 **A More Credible Approach to Parallel Trends** 
 [Previously titled "An Honest Approach to Parallel Trends"] (with Ashesh Rambachan). 2022.
