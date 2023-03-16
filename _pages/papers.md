@@ -77,7 +77,7 @@ This paper synthesizes recent advances in the econometrics of difference-in-diff
 [did-review-draft]:{{ site.baseurl }}{% link assets/files/DiD_Review_Paper.pdf %}
 
 
-**A More Credible Approach to Parallel Trends** 
+**[A More Credible Approach to Parallel Trends](https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdad018/7039335)** 
 [Previously titled "An Honest Approach to Parallel Trends"] (with Ashesh Rambachan). 2022.
 *Forthcoming, Review of Economic Studies*
 <br/>
@@ -94,7 +94,7 @@ This paper proposes tools for robust inference in difference-in-differences and 
 [hpt-package-stata]: https://github.com/mcaceresb/stata-honestdid#honestdid
 
 
-**Inference for Linear Conditional Moment Inequalities** (with Isaiah Andrews and Ariel Pakes). 2022.
+**[Inference for Linear Conditional Moment Inequalities](https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdad004/6994475)** (with Isaiah Andrews and Ariel Pakes). 2022.
 *Forthcoming, Review of Economic Studies*
 <br/>
 <small>[ <a href="#/" onclick="visib('arp')">Abstract</a> | [Draft][arp-draft] |  [Previous version][arp-arxiv-v1] | [Matlab package][arp-code]    ] </small>
@@ -112,10 +112,10 @@ We show that moment inequalities in a wide variety of economic applications have
 
 
 
-**When Is Parallel Trends Sensitive to Functional Form?** (with Pedro Sant'Anna). 2022.
-*Forthcoming, Econometrica*
+**[When Is Parallel Trends Sensitive to Functional Form?](https://www.econometricsociety.org/publications/econometrica/2023/03/01/When-Is-Parallel-Trends-Sensitive-to-Functional-Form)** (with Pedro Sant'Anna). 2023.
+*Econometrica*
 <br/>
-<small>[ <a href="#/" onclick="visib('ptinvariance')">Abstract</a> | [Draft][pt-arxiv] | [Initial version (old)][pt-arxiv-v1] ] </small>
+<small>[ <a href="#/" onclick="visib('ptinvariance')">Abstract</a> | [Paper][pt-arxiv] | [Initial version (old)][pt-arxiv-v1] ] </small>
 
 <div id="ptinvariance" style="display: none; text-align: justify; line-height: 1.2" ><small>
 This paper assesses when the validity of difference-in-differences depends on functional form. We provide a novel characterization: the parallel trends assumption holds under all strictly monotonic transformations of the outcome if and only if a stronger "parallel trends"-type condition holds for the cumulative distribution function of untreated potential outcomes. This condition for parallel trends to be insensitive to functional form is satisfied if and essentially only if the population can be partitioned into a subgroup for which treatment is effectively randomly assigned and a remaining subgroup for which the distribution of untreated potential outcomes is stable over time. These conditions have testable implications, and we introduce falsification tests for the null that parallel trends is insensitive to functional form.
