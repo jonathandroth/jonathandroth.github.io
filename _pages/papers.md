@@ -18,8 +18,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <small>[ <a href="#/" onclick="visib('log0')">Abstract</a> | [Draft][log0-draft] ] </small>
 
 <div id="log0" style="display: none; text-align: justify; line-height: 1.2" ><small>
-Economists frequently estimate average treatment effects (ATEs) for
-transformations of the outcome that are well-defined at zero but behave like log(y) when y is large (e.g., log(1+y), arcsinh(y)). We show that these ATEs depend arbitrarily on the units of the outcome, and thus cannot be interpreted as percentage effects. Moreover, we prove that when the outcome can equal zero, there is no parameter of the form E[g(Y(1),Y(0))] that is point-identified and unit-invariant. We discuss sensible alternative target parameters for settings with zero-valued outcomes that relax at least one of these requirements.
+Economists frequently estimate average treatment effects (ATEs) for transformations of the outcome that are well-defined at zero but behave like log(y) when y is large (e.g., log(1+y), arcsinh(y)). We show that these ATEs depend arbitrarily on the units of the outcome, and thus should not be interpreted as percentage effects. In line with this result, we find that estimated treatment effects for arcsinh-transformed outcomes published in the *American Economic Review* change substantially when we multiply the units of the outcome by 100 (e.g., convert dollars to cents). To help delineate alternative approaches, we prove that when the outcome can equal zero, there is no parameter of the form E[g(Y(1),Y(0))] that is point-identified and unit-invariant. We conclude by discussing sensible alternative target parameters for settings with zero-valued outcomes that relax at least one of these requirements.
 </small><br><br/></div>
 
 [log0-draft]:{{ site.baseurl }}{% link assets/files/LogUniqueHOD0_Draft.pdf %}
