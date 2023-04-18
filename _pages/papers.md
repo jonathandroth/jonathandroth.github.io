@@ -38,7 +38,7 @@ This paper develops a design-based theory of uncertainty that is suitable for an
 **Efficient Estimation for Staggered Rollout Designs** (with Pedro Sant'Anna). 2023.
 *Conditionally accepted, Journal of Political Economy Microeconomics*
 <br/>
-<small>[ <a href="#/" onclick="visib('staggeredefficient')">Abstract</a> | [Draft][staggeredefficient-arxiv] | [R package][staggeredefficient-package] | [Stata package][staggeredefficient-stata-package] ]</small>
+<small>[ <a href="#/" onclick="visib('staggeredefficient')">Abstract</a> | [Draft][staggeredefficient-arxiv] | Packages: [R][staggeredefficient-package] [Stata][staggeredefficient-stata-package] ]</small>
 
 <div id="staggeredefficient" style="display: none; text-align: justify; line-height: 1.2" ><small>
 This paper studies efficient estimation of causal effects in settings where there is staggered treatment adoption and the timing of treatment is as good as randomly assigned. We derive the most efficient estimator in a class of estimators that nests several popular generalized difference-in-differences methods. A feasible plug-in version of the efficient estimator is asymptotically unbiased with efficiency (weakly) dominating that of existing approaches. We provide both t-based and permutation-test-based methods for inference. In an application to a training program for police officers, confidence intervals for the proposed estimator are as much as 8 times shorter than for existing approaches.
@@ -46,7 +46,7 @@ This paper studies efficient estimation of causal effects in settings where ther
 
 [staggeredefficient-arxiv]: https://arxiv.org/pdf/2102.01291.pdf
 [staggeredefficient-package]: https://github.com/jonathandroth/staggered
-[staggeredefficient-stata-package]: https://github.com/jonathandroth/staggered_stata
+[staggeredefficient-stata-package]: https://github.com/mcaceresb/stata-staggered
 
 
 
@@ -80,7 +80,7 @@ This paper synthesizes recent advances in the econometrics of difference-in-diff
 [Previously titled "An Honest Approach to Parallel Trends"] (with Ashesh Rambachan). 2022.
 *Forthcoming, Review of Economic Studies*
 <br/>
-<small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][1] | [JMP Version (old)][3] | Packages: [R][hpt-package] [Stata][hpt-package-stata] ] </small>
+<small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][1] | Packages: [R][hpt-package] [Stata][hpt-package-stata] | [JMP Version (old)][3] ] </small>
 
 <div id="hpt" style="display: none; text-align: justify; line-height: 1.2" ><small>
 This paper proposes tools for robust inference in difference-in-differences and event-study designs where the parallel trends assumption may be violated. Instead of requiring that parallel trends holds exactly, we impose restrictions on how different the post-treatment violations of parallel trends can be from the pre-treatment differences in trends ("pre-trends"). The causal parameter of interest is partially identified under these restrictions. We introduce two approaches that guarantee uniformly valid inference under the imposed restrictions, and we derive novel results showing that they have desirable power properties in our context. We illustrate how economic knowledge can inform the restrictions on the possible violations of parallel trends in two economic applications. We also highlight how our approach can be used to conduct sensitivity analyses showing what causal conclusions can be drawn under various restrictions on the possible violations of the parallel trends assumption.
@@ -114,7 +114,7 @@ We show that moment inequalities in a wide variety of economic applications have
 **[When Is Parallel Trends Sensitive to Functional Form?](https://www.econometricsociety.org/publications/econometrica/2023/03/01/When-Is-Parallel-Trends-Sensitive-to-Functional-Form)** (with Pedro Sant'Anna). 2023.
 *Econometrica*
 <br/>
-<small>[ <a href="#/" onclick="visib('ptinvariance')">Abstract</a> | [Paper][pt-arxiv] | [Initial version (old)][pt-arxiv-v1] ] </small>
+<small>[ <a href="#/" onclick="visib('ptinvariance')">Abstract</a> | [Paper][pt-arxiv] | [Longer version (old)][pt-arxiv-v1] ] </small>
 
 <div id="ptinvariance" style="display: none; text-align: justify; line-height: 1.2" ><small>
 This paper assesses when the validity of difference-in-differences depends on functional form. We provide a novel characterization: the parallel trends assumption holds under all strictly monotonic transformations of the outcome if and only if a stronger "parallel trends"-type condition holds for the cumulative distribution function of untreated potential outcomes. This condition for parallel trends to be insensitive to functional form is satisfied if and essentially only if the population can be partitioned into a subgroup for which treatment is effectively randomly assigned and a remaining subgroup for which the distribution of untreated potential outcomes is stable over time. These conditions have testable implications, and we introduce falsification tests for the null that parallel trends is insensitive to functional form.
@@ -127,7 +127,7 @@ This paper assesses when the validity of difference-in-differences depends on fu
 
 **[Pre-test with Caution: Event-study Estimates After Testing for Parallel Trends](https://pubs.aeaweb.org/doi/pdfplus/10.1257/aeri.20210236)**. 2022. *American Economic Review: Insights*
 <br/>
-<small>[ <a href="#/" onclick="visib('pretest')">Abstract</a> | [Paper][pretest-draft] | [Appendix][pretest-appendix] | [Packages: [R][pretrends-package] [Stata](https://github.com/mcaceresb/stata-pretrends#pretrends) [Shiny][pretrends-shiny] ] | [Longer Version (old)][pretest-draft-longer] | [Replication][codeocean-link] ] </small>
+<small>[ <a href="#/" onclick="visib('pretest')">Abstract</a> | [Paper][pretest-draft] | [Appendix][pretest-appendix] | Packages: [R][pretrends-package] [Stata](https://github.com/mcaceresb/stata-pretrends#pretrends) [Shiny][pretrends-shiny] | [Longer Version (old)][pretest-draft-longer] | [Replication][codeocean-link] ] </small>
 
 <div id="pretest" style="display: none; text-align: justify; line-height: 1.2" ><small>
 This paper discusses two important limitations of the common practice of testing for pre-existing differences in trends (''pre-trends'') when using difference-in-differences and related methods. First, conventional pre-trends tests may have low power. Second, conditioning the analysis on the result of a pre-test can distort estimation and inference, potentially exacerbating the bias of point estimates and undercoverage of confidence intervals. I analyze these issues both in theory and in simulations calibrated to a survey of recent papers in leading economics journals, which suggest that these limitations are important in practice.  I conclude with practical recommendations for mitigating these issues.
