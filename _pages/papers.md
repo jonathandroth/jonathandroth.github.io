@@ -36,7 +36,7 @@ This paper develops a design-based theory of uncertainty that is suitable for an
 
 
 **Efficient Estimation for Staggered Rollout Designs** (with Pedro Sant'Anna). 2023.
-*Revision requested, Journal of Political Economy Microeconomics*
+*Conditionally accepted, Journal of Political Economy Microeconomics*
 <br/>
 <small>[ <a href="#/" onclick="visib('staggeredefficient')">Abstract</a> | [Draft][staggeredefficient-arxiv] | [R package][staggeredefficient-package] | [Stata package][staggeredefficient-stata-package] ]</small>
 
@@ -127,7 +127,7 @@ This paper assesses when the validity of difference-in-differences depends on fu
 
 **[Pre-test with Caution: Event-study Estimates After Testing for Parallel Trends](https://pubs.aeaweb.org/doi/pdfplus/10.1257/aeri.20210236)**. 2022. *American Economic Review: Insights*
 <br/>
-<small>[ <a href="#/" onclick="visib('pretest')">Abstract</a> | [Paper][pretest-draft] | [Appendix][pretest-appendix] | [R package][pretrends-package] | [Shiny app][pretrends-shiny] | [Longer Version (old)][pretest-draft-longer] | [Replication][codeocean-link] ] </small>
+<small>[ <a href="#/" onclick="visib('pretest')">Abstract</a> | [Paper][pretest-draft] | [Appendix][pretest-appendix] | [Packages: [R][pretrends-package] [Stata](https://github.com/mcaceresb/stata-pretrends#pretrends) [Shiny][pretrends-shiny] ] | [Longer Version (old)][pretest-draft-longer] | [Replication][codeocean-link] ] </small>
 
 <div id="pretest" style="display: none; text-align: justify; line-height: 1.2" ><small>
 This paper discusses two important limitations of the common practice of testing for pre-existing differences in trends (''pre-trends'') when using difference-in-differences and related methods. First, conventional pre-trends tests may have low power. Second, conditioning the analysis on the result of a pre-test can distort estimation and inference, potentially exacerbating the bias of point estimates and undercoverage of confidence intervals. I analyze these issues both in theory and in simulations calibrated to a survey of recent papers in leading economics journals, which suggest that these limitations are important in practice.  I conclude with practical recommendations for mitigating these issues.
