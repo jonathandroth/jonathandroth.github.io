@@ -35,20 +35,6 @@ This paper develops a design-based theory of uncertainty that is suitable for an
 
 
 
-**Efficient Estimation for Staggered Rollout Designs** (with Pedro Sant'Anna). 2023.
-*Conditionally accepted, Journal of Political Economy Microeconomics*
-<br/>
-<small>[ <a href="#/" onclick="visib('staggeredefficient')">Abstract</a> | [Draft][staggeredefficient-arxiv] | Packages: [R][staggeredefficient-package] [Stata][staggeredefficient-stata-package] ]</small>
-
-<div id="staggeredefficient" style="display: none; text-align: justify; line-height: 1.2" ><small>
-We study estimation of causal effects in staggered rollout designs, i.e. settings where there is staggered treatment adoption and the timing of treatment is as-good-as randomly assigned. We derive the most efficient estimator in a class of estimators that nests several popular generalized difference-in-differences methods. A feasible plug-in version of the efficient estimator is asymptotically unbiased with efficiency (weakly) dominating that of existing approaches. We provide both t-based and permutation-test-based methods for inference. In an application to a training program for police officers, confidence intervals for the proposed estimator are as much as eight times shorter than for existing approaches.
-</small><br><br/></div>
-
-[staggeredefficient-arxiv]: https://arxiv.org/pdf/2102.01291.pdf
-[staggeredefficient-package]: https://github.com/jonathandroth/staggered
-[staggeredefficient-stata-package]: https://github.com/mcaceresb/stata-staggered
-
-
 
 
 **Union Reform and Teacher Turnover: Evidence from Wisconsin's Act 10**. 2019.
@@ -64,6 +50,20 @@ This paper studies teacher attrition in Wisconsin following Act 10, a policy cha
 
 # <center> Published and Forthcoming Papers </center>
 - - -
+
+**Efficient Estimation for Staggered Rollout Designs** (with Pedro Sant'Anna). 2023.
+*Forthcoming, Journal of Political Economy Microeconomics*
+<br/>
+<small>[ <a href="#/" onclick="visib('staggeredefficient')">Abstract</a> | [Draft][staggeredefficient-arxiv] | Packages: [R][staggeredefficient-package] [Stata][staggeredefficient-stata-package] ]</small>
+
+<div id="staggeredefficient" style="display: none; text-align: justify; line-height: 1.2" ><small>
+We study estimation of causal effects in staggered rollout designs, i.e. settings where there is staggered treatment adoption and the timing of treatment is as-good-as randomly assigned. We derive the most efficient estimator in a class of estimators that nests several popular generalized difference-in-differences methods. A feasible plug-in version of the efficient estimator is asymptotically unbiased with efficiency (weakly) dominating that of existing approaches. We provide both t-based and permutation-test-based methods for inference. In an application to a training program for police officers, confidence intervals for the proposed estimator are as much as eight times shorter than for existing approaches.
+</small><br><br/></div>
+
+[staggeredefficient-arxiv]: https://arxiv.org/pdf/2102.01291.pdf
+[staggeredefficient-package]: https://github.com/jonathandroth/staggered
+[staggeredefficient-stata-package]: https://github.com/mcaceresb/stata-staggered
+
 
 **What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature** (with Pedro Sant'Anna, Alyssa Bilinski, and John Poe). 2022. *Forthcoming, Journal of Econometrics*
 <br/>
