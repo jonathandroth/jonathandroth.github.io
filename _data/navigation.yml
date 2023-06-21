@@ -8,13 +8,15 @@ main:
 
   - title: "Papers"
     url: /papers/
+    
+  - title: "DiD Resources"
+    url: /did-resources/
         
-
-  - title: "Immigrant Doctors Project"
-    url: /immigrant-docs/
-
   - title: "Poppy"
     url: /poppy/
 
   - title: "Office Hours"
     url: /OfficeHours/
+
+  - title: "Immigrant Doctors Project"
+    url: /immigrant-docs/
