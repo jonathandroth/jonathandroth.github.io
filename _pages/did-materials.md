@@ -7,9 +7,6 @@ permalink: /did-resources/
 <br/> 
 
 
-# <center> DiD Resources </center>
-- - -
-
 I have done a lot of work on difference-in-differences (DiD), and have tried to make as many resources as possible available online. This page collects links to those resources.
 
 ## DiD Course
