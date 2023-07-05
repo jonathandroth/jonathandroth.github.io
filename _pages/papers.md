@@ -65,16 +65,6 @@ We study estimation of causal effects in staggered rollout designs, i.e. setting
 [staggeredefficient-stata-package]: https://github.com/mcaceresb/stata-staggered
 
 
-**What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature** (with Pedro Sant'Anna, Alyssa Bilinski, and John Poe). 2022. *Forthcoming, Journal of Econometrics*
-<br/>
-<small>[ <a href="#/" onclick="visib('did-review')">Abstract</a> | [Draft][did-review-draft] ] </small>
-
-<div id="did-review" style="display: none; text-align: justify; line-height: 1.2" ><small>
-This paper synthesizes recent advances in the econometrics of difference-in-differences (DiD) and provides concrete recommendations for practitioners. We begin by articulating a simple set of "canonical" assumptions under which the econometrics of DiD are well-understood. We then argue that recent advances in DiD methods can be broadly classified as relaxing some components of the canonical DiD setup, with a focus on (i) multiple periods and variation in treatment timing, (ii) potential violations of parallel trends, or (iii) alternative frameworks for inference. Our discussion highlights the different ways that the DiD literature has advanced beyond the canonical model, and helps to clarify when each of the papers will be relevant for empirical work. We conclude by discussing some promising areas for future research.
-</small><br><br/></div>
-
-[did-review-draft]:{{ site.baseurl }}{% link assets/files/DiD_Review_Paper.pdf %}
-
 
 **[A More Credible Approach to Parallel Trends](https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdad018/7039335)** 
 [Previously titled "An Honest Approach to Parallel Trends"] (with Ashesh Rambachan). 2022.
@@ -107,6 +97,18 @@ We show that moment inequalities in a wide variety of economic applications have
 [arp-supp-v1]:{{ site.baseurl }}{% link assets/files/arp-supp-v1.pdf %}
 [arp-code]: https://github.com/jonathandroth/LinearMomentInequalities
 [arp-arxiv-v1]: https://arxiv.org/pdf/1909.10062v1.pdf
+
+
+**[What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature](https://www.sciencedirect.com/science/article/pii/S0304407623001318)** (with Pedro Sant'Anna, Alyssa Bilinski, and John Poe). 2023. *Journal of Econometrics*
+<br/>
+<small>[ <a href="#/" onclick="visib('did-review')">Abstract</a> | [Paper][did-review-draft] ] </small>
+
+<div id="did-review" style="display: none; text-align: justify; line-height: 1.2" ><small>
+This paper synthesizes recent advances in the econometrics of difference-in-differences (DiD) and provides concrete recommendations for practitioners. We begin by articulating a simple set of "canonical" assumptions under which the econometrics of DiD are well-understood. We then argue that recent advances in DiD methods can be broadly classified as relaxing some components of the canonical DiD setup, with a focus on (i) multiple periods and variation in treatment timing, (ii) potential violations of parallel trends, or (iii) alternative frameworks for inference. Our discussion highlights the different ways that the DiD literature has advanced beyond the canonical model, and helps to clarify when each of the papers will be relevant for empirical work. We conclude by discussing some promising areas for future research.
+</small><br><br/></div>
+
+[did-review-draft]:{{ site.baseurl }}{% link assets/files/DiD_Review_Paper.pdf %}
+
 
 
 

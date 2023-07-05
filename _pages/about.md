@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an assistant professor in the economics department at Brown University.
+I am the Groos Family Assistant Professor of Economics at Brown University.
 
 My primary research interests are in econometrics, with a focus on causal inference. I have also worked on topics in labor economics, machine learning, and algorithmic fairness.
 
