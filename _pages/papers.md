@@ -51,7 +51,7 @@ This paper studies teacher attrition in Wisconsin following Act 10, a policy cha
 # <center> Published and Forthcoming Papers </center>
 - - -
 
-**Efficient Estimation for Staggered Rollout Designs** (with Pedro Sant'Anna). 2023.
+**[Efficient Estimation for Staggered Rollout Designs](https://www.journals.uchicago.edu/doi/abs/10.1086/726581)** (with Pedro Sant'Anna). 2023.
 *Forthcoming, Journal of Political Economy Microeconomics*
 <br/>
 <small>[ <a href="#/" onclick="visib('staggeredefficient')">Abstract</a> | [Draft][staggeredefficient-arxiv] | Packages: [R][staggeredefficient-package] [Stata][staggeredefficient-stata-package] ]</small>
@@ -64,23 +64,6 @@ We study estimation of causal effects in staggered rollout designs, i.e. setting
 [staggeredefficient-package]: https://github.com/jonathandroth/staggered
 [staggeredefficient-stata-package]: https://github.com/mcaceresb/stata-staggered
 
-
-
-**[A More Credible Approach to Parallel Trends](https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdad018/7039335)** 
-[Previously titled "An Honest Approach to Parallel Trends"] (with Ashesh Rambachan). 2022.
-*Forthcoming, Review of Economic Studies*
-<br/>
-<small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][1] | Packages: [R][hpt-package] [Stata][hpt-package-stata] | [JMP Version (old)][3] ] </small>
-
-<div id="hpt" style="display: none; text-align: justify; line-height: 1.2" ><small>
-This paper proposes tools for robust inference in difference-in-differences and event-study designs where the parallel trends assumption may be violated. Instead of requiring that parallel trends holds exactly, we impose restrictions on how different the post-treatment violations of parallel trends can be from the pre-treatment differences in trends ("pre-trends"). The causal parameter of interest is partially identified under these restrictions. We introduce two approaches that guarantee uniformly valid inference under the imposed restrictions, and we derive novel results showing that they have desirable power properties in our context. We illustrate how economic knowledge can inform the restrictions on the possible violations of parallel trends in two economic applications. We also highlight how our approach can be used to conduct sensitivity analyses showing what causal conclusions can be drawn under various restrictions on the possible violations of the parallel trends assumption.
-</small><br><br/></div>
-
-[1]: {{ site.baseurl }}{% link assets/files/HonestParallelTrends_Main.pdf %}
-[2]: {{ site.baseurl }}{% link assets/files/HonestParallelTrends_Supp.pdf %}
-[3]: {{ site.baseurl }}{% link assets/files/roth_jmp_honestparalleltrends_main_jmp_version.pdf %}
-[hpt-package]: https://github.com/asheshrambachan/HonestDiD
-[hpt-package-stata]: https://github.com/mcaceresb/stata-honestdid#honestdid
 
 
 **[Inference for Linear Conditional Moment Inequalities](https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdad004/6994475)** (with Isaiah Andrews and Ariel Pakes). 2022.
@@ -97,6 +80,24 @@ We show that moment inequalities in a wide variety of economic applications have
 [arp-supp-v1]:{{ site.baseurl }}{% link assets/files/arp-supp-v1.pdf %}
 [arp-code]: https://github.com/jonathandroth/LinearMomentInequalities
 [arp-arxiv-v1]: https://arxiv.org/pdf/1909.10062v1.pdf
+
+
+**[A More Credible Approach to Parallel Trends](https://doi.org/10.1093/restud/rdad018)** 
+[Previously titled "An Honest Approach to Parallel Trends"] (with Ashesh Rambachan). 2023.
+*Review of Economic Studies*
+<br/>
+<small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Paper][1] | [Supplement][2] | Packages: [R][hpt-package] [Stata][hpt-package-stata] | [JMP Version (old)][3] ] </small>
+
+<div id="hpt" style="display: none; text-align: justify; line-height: 1.2" ><small>
+This paper proposes tools for robust inference in difference-in-differences and event-study designs where the parallel trends assumption may be violated. Instead of requiring that parallel trends holds exactly, we impose restrictions on how different the post-treatment violations of parallel trends can be from the pre-treatment differences in trends ("pre-trends"). The causal parameter of interest is partially identified under these restrictions. We introduce two approaches that guarantee uniformly valid inference under the imposed restrictions, and we derive novel results showing that they have desirable power properties in our context. We illustrate how economic knowledge can inform the restrictions on the possible violations of parallel trends in two economic applications. We also highlight how our approach can be used to conduct sensitivity analyses showing what causal conclusions can be drawn under various restrictions on the possible violations of the parallel trends assumption.
+</small><br><br/></div>
+
+[1]: {{ site.baseurl }}{% link assets/files/HonestParallelTrends_Main.pdf %}
+[2]: {{ site.baseurl }}{% link assets/files/HonestParallelTrends_Supp.pdf %}
+[3]: {{ site.baseurl }}{% link assets/files/roth_jmp_honestparalleltrends_main_jmp_version.pdf %}
+[hpt-package]: https://github.com/asheshrambachan/HonestDiD
+[hpt-package-stata]: https://github.com/mcaceresb/stata-honestdid#honestdid
+
 
 
 **[What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature](https://www.sciencedirect.com/science/article/pii/S0304407623001318)** (with Pedro Sant'Anna, Alyssa Bilinski, and John Poe). 2023. *Journal of Econometrics*
