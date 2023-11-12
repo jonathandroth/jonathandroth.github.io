@@ -11,4 +11,4 @@ permalink: /minyan/
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<iframe src="https://docs.google.com/spreadsheets/d/1bZJOseBtqZ7ICch8_qA3oIjg7v8gxRW_4G9TeDiuhIE/edit?usp=sharing?widget=true&amp;headers=false"></iframe>
+<iframe width="100%" height="500px"  src="https://docs.google.com/spreadsheets/d/1bZJOseBtqZ7ICch8_qA3oIjg7v8gxRW_4G9TeDiuhIE/edit?usp=sharing?widget=true&amp;headers=false"></iframe>
