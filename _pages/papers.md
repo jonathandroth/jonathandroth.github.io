@@ -14,16 +14,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> Working Papers </center>
 - - -
 
-**Logs with zeros? Some problems and solutions** [Previously titled "Log-like? Identified ATEs defined with zero-valued outcomes are (arbitrarily) scale-dependent"] (with Jiafeng Chen). 2023. *Conditionally accepted, Quarterly Journal of Economics* <br/>
-<small>[ <a href="#/" onclick="visib('log0')">Abstract</a> | [Draft][log0-draft] ] </small>
-
-<div id="log0" style="display: none; text-align: justify; line-height: 1.2" ><small>
-Many economic settings involve an outcome Y that is weakly positive but can equal zero (e.g. earnings). In such settings, it is common to estimate an average treatment effect (ATE) for a transformation of the outcome that behaves like log(Y) when Y is large but is defined at zero (e.g. log(1+Y), arcsinh(Y)). This paper argues that ATEs for such log-like transformations should not be interpreted as approximating a percentage effect, since unlike a percentage, they depend arbitrarily on the units of the outcome when the treatment affects the extensive margin. Intuitively, this dependence arises because an individual-level percentage effect is not well-defined for individuals whose outcome changes from zero to non-zero when receiving treatment, and the units of the outcome implicitly determine how much weight the ATE places on such extensive margin changes. We further establish that when the outcome can equal zero, there is no treatment effect parameter that is an average of individual-level treatment effects, unit-invariant, and point-identified. We discuss a variety of alternative approaches that may be sensible in settings with an intensive and extensive margin, including (i) expressing the ATE in levels as a percentage (e.g. using Poisson regression), (ii) explicitly calibrating the value placed on the intensive and extensive margins, and (iii) estimating separate effects for the two margins (e.g. using Lee bounds). We illustrate these approaches in three empirical applications.
-</small><br><br/></div>
-
-[log0-draft]:{{ site.baseurl }}{% link assets/files/LogUniqueHOD0_Draft.pdf %}
-
-
 
 **Design-Based Uncertainty for Quasi-Experiments** (with Ashesh Rambachan). 2022.<br/>
 <small>[ <a href="#/" onclick="visib('design-based')">Abstract</a> | [Draft][design-based-arxiv] ] </small>
@@ -51,8 +41,17 @@ This paper studies teacher attrition in Wisconsin following Act 10, a policy cha
 # <center> Published and Forthcoming Papers </center>
 - - -
 
+**Logs with zeros? Some problems and solutions** [Previously titled "Log-like? Identified ATEs defined with zero-valued outcomes are (arbitrarily) scale-dependent"] (with Jiafeng Chen). 2023. *Accepted, Quarterly Journal of Economics* <br/>
+<small>[ <a href="#/" onclick="visib('log0')">Abstract</a> | [Draft][log0-draft] ] </small>
+
+<div id="log0" style="display: none; text-align: justify; line-height: 1.2" ><small>
+When studying an outcome Y that is weakly-positive but can equal zero (e.g., earnings), researchers frequently estimate an average treatment effect (ATE) for a "log-like" transformation that behaves like log(Y) for large Y but is defined at zero (e.g., log(1+Y), arcsinh(Y)). We argue that ATEs for log-like transformations should not be interpreted as approximating percentage effects, since unlike a percentage, they depend on the units of the outcome. In fact, we show that if the treatment affects the extensive margin, one can obtain a treatment effect of any magnitude simply by re-scaling the units of Y before taking the log-like transformation. This arbitrary unit-dependence arises because an individual-level percentage effect is not well-defined for individuals whose outcome changes from zero to non-zero when receiving treatment, and the units of the outcome implicitly determine how much weight the ATE for a log-like transformation places on the extensive margin. We further establish a trilemma: when the outcome can equal zero, there is no treatment effect parameter that is an average of individual-level treatment effects, unit-invariant, and point-identified. We discuss several alternative approaches that may be sensible in settings with an intensive and extensive margin, including (i) expressing the ATE in levels as a percentage (e.g., using Poisson regression), (ii) explicitly calibrating the value placed on the intensive and extensive margins, and (iii) estimating separate effects for the two margins (e.g., using Lee bounds). We illustrate these approaches in three empirical applications.
+</small><br><br/></div>
+
+[log0-draft]:{{ site.baseurl }}{% link assets/files/LogUniqueHOD0_Draft.pdf %}
+
 **[Efficient Estimation for Staggered Rollout Designs](https://www.journals.uchicago.edu/doi/abs/10.1086/726581)** (with Pedro Sant'Anna). 2023.
-*Forthcoming, Journal of Political Economy Microeconomics*
+*Journal of Political Economy Microeconomics*
 <br/>
 <small>[ <a href="#/" onclick="visib('staggeredefficient')">Abstract</a> | [Draft][staggeredefficient-arxiv] | Packages: [R][staggeredefficient-package] [Stata][staggeredefficient-stata-package] ]</small>
 
@@ -66,8 +65,8 @@ We study estimation of causal effects in staggered rollout designs, i.e. setting
 
 
 
-**[Inference for Linear Conditional Moment Inequalities](https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdad004/6994475)** (with Isaiah Andrews and Ariel Pakes). 2022.
-*Forthcoming, Review of Economic Studies*
+**[Inference for Linear Conditional Moment Inequalities](https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdad004/6994475)** (with Isaiah Andrews and Ariel Pakes). 2023.
+*Review of Economic Studies*
 <br/>
 <small>[ <a href="#/" onclick="visib('arp')">Abstract</a> | [Draft][arp-draft] |  [Previous version][arp-arxiv-v1] | [Matlab package][arp-code]    ] </small>
 
