@@ -11,7 +11,7 @@ permalink: /papers/
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-# <center> Working Papers </center>
+# <center> Recent Working Papers </center>
 - - -
 
 
@@ -23,19 +23,6 @@ This paper develops a design-based theory of uncertainty that is suitable for an
 </small><br><br/></div>
 [design-based-arxiv]: https://arxiv.org/pdf/2008.00602.pdf
 
-
-
-
-
-**Union Reform and Teacher Turnover: Evidence from Wisconsin's Act 10**. 2019.
-<br/>
-<small>[ <a href="#/" onclick="visib('act10')">Abstract</a> | [Draft][act10-draft] ] </small>
-
-<div id="act10" style="display: none; text-align: justify; line-height: 1.2" ><small>
-This paper studies teacher attrition in Wisconsin following Act 10, a policy change which severely weakened teachers’ unions and capped wage growth for teachers. I document a sharp short-run increase in teacher turnover after the Act was passed, driven almost entirely by teachers over the minimum retirement age of 55, whose turnover rate doubled from 17 to 35 percent. Such teachers faced strong incentives to retire before the end of pre-existing collective bargaining agreements in order to secure collectively-bargained retirement benefits (e.g. healthcare), which no longer fell under the scope of collective bargaining after the Act. I find much more modest long-run increases in teacher turnover, consistent with previous estimates of labor supply elasticities. I then attempt to evaluate the effect of the wave of retirements following Act 10 on education quality using grade-level value-added metrics. I find suggestive evidence that student academic performance increased in grades with teachers who retired following the reform, and I obtain similar results when instrumenting for retirement using the pre-existing age distribution of teachers. Differences in value-added between retirees and their replacements can potentially explain some, but not all, of the observed academic improvements.
-</small><br><br/></div>
-
-[act10-draft]:{{ site.baseurl }}{% link assets/files/roth_act10.pdf %}
 
 
 # <center> Published and Forthcoming Papers </center>
@@ -174,6 +161,20 @@ We evaluate the folk wisdom that algorithmic decision rules trained on data prod
 </small><br><br/></div>
 
 [biasinbiasout-draft]:{{ site.baseurl }}{% link assets/files/bias-in-bias-out-final.pdf %}
+
+# <center> Inactive Working Papers </center>
+
+
+**Union Reform and Teacher Turnover: Evidence from Wisconsin's Act 10**. 2019.
+<br/>
+<small>[ <a href="#/" onclick="visib('act10')">Abstract</a> | [Draft][act10-draft] ] </small>
+
+<div id="act10" style="display: none; text-align: justify; line-height: 1.2" ><small>
+This paper studies teacher attrition in Wisconsin following Act 10, a policy change which severely weakened teachers’ unions and capped wage growth for teachers. I document a sharp short-run increase in teacher turnover after the Act was passed, driven almost entirely by teachers over the minimum retirement age of 55, whose turnover rate doubled from 17 to 35 percent. Such teachers faced strong incentives to retire before the end of pre-existing collective bargaining agreements in order to secure collectively-bargained retirement benefits (e.g. healthcare), which no longer fell under the scope of collective bargaining after the Act. I find much more modest long-run increases in teacher turnover, consistent with previous estimates of labor supply elasticities. I then attempt to evaluate the effect of the wave of retirements following Act 10 on education quality using grade-level value-added metrics. I find suggestive evidence that student academic performance increased in grades with teachers who retired following the reform, and I obtain similar results when instrumenting for retirement using the pre-existing age distribution of teachers. Differences in value-added between retirees and their replacements can potentially explain some, but not all, of the observed academic improvements.
+</small><br><br/></div>
+
+[act10-draft]:{{ site.baseurl }}{% link assets/files/roth_act10.pdf %}
+
 
 
 # <center> Comments </center>
