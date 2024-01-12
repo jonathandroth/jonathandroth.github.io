@@ -14,6 +14,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> Recent Working Papers </center>
 - - -
 
+**(Empirical) Bayes Approaches to Parallel Trends** (with Soonwoo Kwon). 2024. *Prepared for AEA P&P* <br/>
+<small>[ <a href="#/" onclick="visib('honestbayespp')">Abstract</a> | [Draft][honestbayespp-main] | [Appendix][honestbayespp-appendix] ] </small>
+
+<div id="honestbayespp" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+We consider Bayes and Empirical Bayes (EB) approaches for dealing with violations of parallel trends. In the Bayes approach, the researcher specifies a prior over both the pre-treatment violations of parallel trends $\delta_{pre}$ and the post-treatment violations $\delta_{post}$. The researcher then updates their posterior about the post-treatment bias $\delta_{post}$ given an estimate of the pre-trends $\delta_{pre}$. This allows them to form posterior means and credible sets for the treatment effect of interest, $\tau_{post}$. In the EB approach, the prior on the violations of parallel trends is learned from the pre-treatment observations. We illustrate these approaches in two empirical applications.
+
+
+
+</small><br><br/></div>
+[honestbayespp-main]:{{ site.baseurl }}{% link assets/files/BayesHonestDiD_main.pdf %}
+[honestbayespp-appendix]:{{ site.baseurl }}{% link assets/files/BayesHonestDiD_appendix.pdf %}
+
 
 **Design-Based Uncertainty for Quasi-Experiments** (with Ashesh Rambachan). 2022.<br/>
 <small>[ <a href="#/" onclick="visib('design-based')">Abstract</a> | [Draft][design-based-arxiv] ] </small>
