@@ -14,6 +14,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> Recent Working Papers </center>
 - - -
 
+**Interpreting Event-Studies from Recent Difference-in-Differences Methods**. 2024. <br/>
+<small>[ <a href="#/" onclick="visib('heteventstudies')">Abstract</a> | [Draft][heteventstudies-draft] ] </small>
+
+<div id="heteventstudies" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+
+This note discusses the interpretation of event-study plots produced by recent difference-in-differences methods. I show that even when specialized to the case of non-staggered treatment timing, the default plots produced by software for three of the most popular recent methods (de Chaisemartin and D’Haultfœuille, 2020; Callaway and SantAnna, 
+2021; Borusyak, Jaravel and Spiess, 2024) do not match those of traditional two-way fixed effects (TWFE) event-studies: the new methods may show a kink or jump at the time of treatment even when the TWFE event-study shows a straight line. This difference stems from the fact that the new methods construct the pre-treatment coefficients asymmetrically from the post-treatment coefficients. As a result, visual heuristics for analyzing TWFE event-study plots should not be immediately applied to those from these methods. I conclude with practical recommendations for constructing and interpreting event-study plots when using these methods.
+
+</small><br><br/></div>
+[heteventstudies-draft]:{{ site.baseurl }}{% link assets/files/HetEventStudies.pdf %}
+
+
 **(Empirical) Bayes Approaches to Parallel Trends** (with Soonwoo Kwon). 2024. *Prepared for AEA P&P* <br/>
 <small>[ <a href="#/" onclick="visib('honestbayespp')">Abstract</a> | [Draft][honestbayespp-main] | [Appendix][honestbayespp-appendix] ] </small>
 
