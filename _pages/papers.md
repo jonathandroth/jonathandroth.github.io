@@ -54,7 +54,8 @@ This paper develops a finite-population, design-based theory of uncertainty for 
 # <center> Published and Forthcoming Papers </center>
 - - -
 
-**Logs with zeros? Some problems and solutions** [Previously titled "Log-like? Identified ATEs defined with zero-valued outcomes are (arbitrarily) scale-dependent"] (with Jiafeng Chen). 2023. *Accepted, Quarterly Journal of Economics* <br/>
+**[Logs with zeros? Some problems and solutions](https://academic.oup.com/qje/article/139/2/891/7473710?utm_source=etoc&utm_campaign=qje&utm_medium=email)** 
+[Previously titled "Log-like? Identified ATEs defined with zero-valued outcomes are (arbitrarily) scale-dependent"] (with Jiafeng Chen). 2024. *Quarterly Journal of Economics* <br/>
 <small>[ <a href="#/" onclick="visib('log0')">Abstract</a> | [Draft][log0-draft] ] </small>
 
 <div id="log0" style="display: none; text-align: justify; line-height: 1.2" ><small>
