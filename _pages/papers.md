@@ -14,6 +14,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> Recent Working Papers </center>
 - - -
 
+**Testing Mechanisms** (with Soonwoo Kwon). 2024. <br/>
+<small>[ <a href="#/" onclick="visib('testingmechs')">Abstract</a> | [Draft][testingmechs-main] ] </small>
+
+<div id="testingmechs" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+ Economists are often interested in the mechanisms by which a particular treatment affects an outcome. This paper develops tests for the "sharp null of full mediation" that the treatment <em>D</em> operates on the outcome <em>Y</em> only through a particular conjectured mechanism (or set of mechanisms) <em>M</em>. A key observation is that if <em>D</em> is randomly assigned and has a monotone effect on <em>M</em>, then <em>D</em> is a valid instrumental variable for the local average treatment effect (LATE) of <em>M</em> on <em>Y</em>. Existing tools for testing the validity of the LATE assumptions can thus be used to test the sharp null of full mediation when <em>M</em> and <em>D</em> are binary. We develop a more general framework that allows one to test whether the effect of <em>D</em> on <em>Y</em> is fully explained by a potentially multi-valued and multi-dimensional set of mechanisms <em>M</em>, allowing for relaxations of the monotonicity assumption. We further provide methods for lower-bounding the size of the alternative mechanisms when the sharp null is rejected. An advantage of our approach relative to existing tools for mediation analysis is that it does not require stringent assumptions about how <em>M</em> is assigned; on the other hand, our approach helps to answer different questions than traditional mediation analysis by focusing on the sharp null rather than estimating average direct and indirect effects. We illustrate the usefulness of the testable implications in two empirical applications.
+
+
+
+</small><br><br/></div>
+[testingmechs-main]:{{ site.baseurl }}{% link assets/files/TestingMechanisms_Draft.pdf %}
+
+
 **Interpreting Event-Studies from Recent Difference-in-Differences Methods**. 2024. <br/>
 <small>[ <a href="#/" onclick="visib('heteventstudies')">Abstract</a> | [Draft][heteventstudies-draft] ] </small>
 
@@ -26,19 +39,6 @@ This note discusses the interpretation of event-study plots produced by recent d
 </small><br><br/></div>
 [heteventstudies-draft]:{{ site.baseurl }}{% link assets/files/HetEventStudies.pdf %}
 
-
-**(Empirical) Bayes Approaches to Parallel Trends** (with Soonwoo Kwon). 2024. *Prepared for AEA P&P* <br/>
-<small>[ <a href="#/" onclick="visib('honestbayespp')">Abstract</a> | [Draft][honestbayespp-main] | [Appendix][honestbayespp-appendix] ] </small>
-
-<div id="honestbayespp" style="display: none; text-align: justify; line-height: 1.2" ><small>
-
-We consider Bayes and Empirical Bayes (EB) approaches for dealing with violations of parallel trends. In the Bayes approach, the researcher specifies a prior over both the pre-treatment violations of parallel trends $\delta_{pre}$ and the post-treatment violations $\delta_{post}$. The researcher then updates their posterior about the post-treatment bias $\delta_{post}$ given an estimate of the pre-trends $\delta_{pre}$. This allows them to form posterior means and credible sets for the treatment effect of interest, $\tau_{post}$. In the EB approach, the prior on the violations of parallel trends is learned from the pre-treatment observations. We illustrate these approaches in two empirical applications.
-
-
-
-</small><br><br/></div>
-[honestbayespp-main]:{{ site.baseurl }}{% link assets/files/BayesHonestDiD_main.pdf %}
-[honestbayespp-appendix]:{{ site.baseurl }}{% link assets/files/BayesHonestDiD_appendix.pdf %}
 
 
 **Design-Based Uncertainty for Quasi-Experiments** (with Ashesh Rambachan). 2024.<br/>
@@ -53,6 +53,20 @@ This paper develops a finite-population, design-based theory of uncertainty for 
 
 # <center> Published and Forthcoming Papers </center>
 - - -
+
+**(Empirical) Bayes Approaches to Parallel Trends** (with Soonwoo Kwon). 2024. *Forthcoming, AEA P&P* <br/>
+<small>[ <a href="#/" onclick="visib('honestbayespp')">Abstract</a> | [Draft][honestbayespp-main] | [Appendix][honestbayespp-appendix] ] </small>
+
+<div id="honestbayespp" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+We consider Bayes and Empirical Bayes (EB) approaches for dealing with violations of parallel trends. In the Bayes approach, the researcher specifies a prior over both the pre-treatment violations of parallel trends $\delta_{pre}$ and the post-treatment violations $\delta_{post}$. The researcher then updates their posterior about the post-treatment bias $\delta_{post}$ given an estimate of the pre-trends $\delta_{pre}$. This allows them to form posterior means and credible sets for the treatment effect of interest, $\tau_{post}$. In the EB approach, the prior on the violations of parallel trends is learned from the pre-treatment observations. We illustrate these approaches in two empirical applications.
+
+
+
+</small><br><br/></div>
+[honestbayespp-main]:{{ site.baseurl }}{% link assets/files/BayesHonestDiD_main.pdf %}
+[honestbayespp-appendix]:{{ site.baseurl }}{% link assets/files/BayesHonestDiD_appendix.pdf %}
+
 
 **[Logs with zeros? Some problems and solutions](https://academic.oup.com/qje/article/139/2/891/7473710?utm_source=etoc&utm_campaign=qje&utm_medium=email)** 
 [Previously titled "Log-like? Identified ATEs defined with zero-valued outcomes are (arbitrarily) scale-dependent"] (with Jiafeng Chen). 2024. *Quarterly Journal of Economics* <br/>
