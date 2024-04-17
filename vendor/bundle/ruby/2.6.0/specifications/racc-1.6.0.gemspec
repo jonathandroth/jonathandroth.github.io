@@ -20,8 +20,8 @@ Gem::Specification.new do |s|
   s.licenses = ["Ruby".freeze, "BSD-2-Clause".freeze]
   s.rdoc_options = ["--main".freeze, "README.rdoc".freeze]
   s.required_ruby_version = Gem::Requirement.new(">= 2.5".freeze)
-  s.rubygems_version = "3.0.3".freeze
+  s.rubygems_version = "3.0.3.1".freeze
   s.summary = "Racc is a LALR(1) parser generator".freeze
 
-  s.installed_by_version = "3.0.3" if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.0.3.1" if s.respond_to? :installed_by_version
 end
