@@ -113,7 +113,7 @@ We show that moment inequalities in a wide variety of economic applications have
 [Previously titled "An Honest Approach to Parallel Trends"] (with Ashesh Rambachan). 2023.
 *Review of Economic Studies*
 <br/>
-<small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Paper][1] | [Supplement][2] | Packages: [R][hpt-package] [Stata][hpt-package-stata] | [JMP Version (old)][3] ] </small>
+<small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][1] | [Supplement][2] | Packages: [R][hpt-package] [Stata][hpt-package-stata] | [JMP Version (old)][3] ] </small>
 
 <div id="hpt" style="display: none; text-align: justify; line-height: 1.2" ><small>
 This paper proposes tools for robust inference in difference-in-differences and event-study designs where the parallel trends assumption may be violated. Instead of requiring that parallel trends holds exactly, we impose restrictions on how different the post-treatment violations of parallel trends can be from the pre-treatment differences in trends ("pre-trends"). The causal parameter of interest is partially identified under these restrictions. We introduce two approaches that guarantee uniformly valid inference under the imposed restrictions, and we derive novel results showing that they have desirable power properties in our context. We illustrate how economic knowledge can inform the restrictions on the possible violations of parallel trends in two economic applications. We also highlight how our approach can be used to conduct sensitivity analyses showing what causal conclusions can be drawn under various restrictions on the possible violations of the parallel trends assumption.
@@ -129,7 +129,7 @@ This paper proposes tools for robust inference in difference-in-differences and 
 
 **[What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature](https://www.sciencedirect.com/science/article/pii/S0304407623001318)** (with Pedro Sant'Anna, Alyssa Bilinski, and John Poe). 2023. *Journal of Econometrics*
 <br/>
-<small>[ <a href="#/" onclick="visib('did-review')">Abstract</a> | [Paper][did-review-draft] ] </small>
+<small>[ <a href="#/" onclick="visib('did-review')">Abstract</a> | [Draft][did-review-draft] ] </small>
 
 <div id="did-review" style="display: none; text-align: justify; line-height: 1.2" ><small>
 This paper synthesizes recent advances in the econometrics of difference-in-differences (DiD) and provides concrete recommendations for practitioners. We begin by articulating a simple set of "canonical" assumptions under which the econometrics of DiD are well-understood. We then argue that recent advances in DiD methods can be broadly classified as relaxing some components of the canonical DiD setup, with a focus on (i) multiple periods and variation in treatment timing, (ii) potential violations of parallel trends, or (iii) alternative frameworks for inference. Our discussion highlights the different ways that the DiD literature has advanced beyond the canonical model, and helps to clarify when each of the papers will be relevant for empirical work. We conclude by discussing some promising areas for future research.
@@ -144,7 +144,7 @@ This paper synthesizes recent advances in the econometrics of difference-in-diff
 **[When Is Parallel Trends Sensitive to Functional Form?](https://www.econometricsociety.org/publications/econometrica/2023/03/01/When-Is-Parallel-Trends-Sensitive-to-Functional-Form)** (with Pedro Sant'Anna). 2023.
 *Econometrica*
 <br/>
-<small>[ <a href="#/" onclick="visib('ptinvariance')">Abstract</a> | [Paper][pt-arxiv] | [Longer version (old)][pt-arxiv-v1] ] </small>
+<small>[ <a href="#/" onclick="visib('ptinvariance')">Abstract</a> | [Draft][pt-arxiv] | [Longer version (old)][pt-arxiv-v1] ] </small>
 
 <div id="ptinvariance" style="display: none; text-align: justify; line-height: 1.2" ><small>
 This paper assesses when the validity of difference-in-differences depends on functional form. We provide a novel characterization: the parallel trends assumption holds under all strictly monotonic transformations of the outcome if and only if a stronger "parallel trends"-type condition holds for the cumulative distribution function of untreated potential outcomes. This condition for parallel trends to be insensitive to functional form is satisfied if and essentially only if the population can be partitioned into a subgroup for which treatment is effectively randomly assigned and a remaining subgroup for which the distribution of untreated potential outcomes is stable over time. These conditions have testable implications, and we introduce falsification tests for the null that parallel trends is insensitive to functional form.
@@ -157,7 +157,7 @@ This paper assesses when the validity of difference-in-differences depends on fu
 
 **[Pre-test with Caution: Event-study Estimates After Testing for Parallel Trends](https://pubs.aeaweb.org/doi/pdfplus/10.1257/aeri.20210236)**. 2022. *American Economic Review: Insights*
 <br/>
-<small>[ <a href="#/" onclick="visib('pretest')">Abstract</a> | [Paper][pretest-draft] | [Appendix][pretest-appendix] | Packages: [R][pretrends-package] [Stata](https://github.com/mcaceresb/stata-pretrends#pretrends) [Shiny][pretrends-shiny] | [Longer Version (old)][pretest-draft-longer] | [Replication][codeocean-link] ] </small>
+<small>[ <a href="#/" onclick="visib('pretest')">Abstract</a> | [Draft][pretest-draft] | [Appendix][pretest-appendix] | Packages: [R][pretrends-package] [Stata](https://github.com/mcaceresb/stata-pretrends#pretrends) [Shiny][pretrends-shiny] | [Longer Version (old)][pretest-draft-longer] | [Replication][codeocean-link] ] </small>
 
 <div id="pretest" style="display: none; text-align: justify; line-height: 1.2" ><small>
 This paper discusses two important limitations of the common practice of testing for pre-existing differences in trends (''pre-trends'') when using difference-in-differences and related methods. First, conventional pre-trends tests may have low power. Second, conditioning the analysis on the result of a pre-test can distort estimation and inference, potentially exacerbating the bias of point estimates and undercoverage of confidence intervals. I analyze these issues both in theory and in simulations calibrated to a survey of recent papers in leading economics journals, which suggest that these limitations are important in practice.  I conclude with practical recommendations for mitigating these issues.
@@ -173,7 +173,7 @@ This paper discusses two important limitations of the common practice of testing
 
 **[An Outcome Test of Discrimination for Ranked Lists](https://dl.acm.org/doi/10.1145/3531146.3533102)** (with Guillaume Saint-Jacques and YinYin Yu). 2022. *2022 ACM Conference on Fairness, Accountability, and Transparency (FAccT 2022)*
 <br/>
-<small>[ <a href="#/" onclick="visib('outcometest')">Abstract</a> | [Paper][outcometest-draft] ] </small>
+<small>[ <a href="#/" onclick="visib('outcometest')">Abstract</a> | [Draft][outcometest-draft] ] </small>
 
 <div id="outcometest" style="display: none; text-align: justify; line-height: 1.2" ><small>
 This paper extends Becker (1957)'s outcome test of discrimination to settings where a (human or algorithmic) decision-maker produces a ranked list of candidates. Ranked lists are particularly relevant in the context of online platforms that produce search results or feeds, and also arise when human decisionmakers express ordinal preferences over a list of candidates. We show that non-discrimination implies a system of moment inequalities, which intuitively impose that one cannot permute the position of a lower-ranked candidate from one group with a higher-ranked candidate from a second group and systematically improve the objective. Moreover, we show that that these moment inequalities are the \textit{only} testable implications of non-discrimination when the auditor observes only outcomes and group membership by rank. We show how to statistically test the implied inequalities, and validate our approach in an application using data from LinkedIn.
@@ -185,7 +185,7 @@ This paper extends Becker (1957)'s outcome test of discrimination to settings wh
 
 **[Why Do Sectoral Employment Programs Work? Evidence from WorkAdvance](https://www.journals.uchicago.edu/doi/abs/10.1086/717932)** (with Lawrence F. Katz, Richard Hendra, and Kelsey Schaberg).  2022. *Journal of Labor Economics*
 <br/>
-<small>[ <a href="#/" onclick="visib('workadvance')">Abstract</a> | [Paper][workadvance-paper] ] </small>
+<small>[ <a href="#/" onclick="visib('workadvance')">Abstract</a> | [Draft][workadvance-paper] ] </small>
 
 <div id="workadvance" style="display: none; text-align: justify; line-height: 1.2" ><small>
 This paper examines the evidence from randomized evaluations of sector-focused training programs that target low-wage workers and combine upfront screening, occupational and soft skills training, and wraparound services.  The programs generate substantial and persistent earnings gains (12 to 34 percent) following training. Theoretical mechanisms for program impacts are explored for the WorkAdvance demonstration. Earnings gains are generated by getting participants into higher-wage jobs in higher-earning industries and occupations not just by raising employment. Training in transferable and certifiable skills (likely under-provided from poaching concerns) and reductions of employment barriers to high-wage sectors for non-traditional workers appear to play key roles.
@@ -195,7 +195,7 @@ This paper examines the evidence from randomized evaluations of sector-focused t
 
 **[Bias In, Bias Out? Evaluating the Folk Wisdom](https://drops.dagstuhl.de/opus/volltexte/2020/12022/pdf/LIPIcs-FORC-2020-6.pdf)** (with Ashesh Rambachan). 2020. *1st Symposium on the Foundations of Responsible Computing (FORC 2020)*
 <br/>
-<small>[ <a href="#/" onclick="visib('biasinbiasout')">Abstract</a> | [Paper][biasinbiasout-draft] ] </small>
+<small>[ <a href="#/" onclick="visib('biasinbiasout')">Abstract</a> | [Draft][biasinbiasout-draft] ] </small>
 
 <div id="biasinbiasout" style="display: none; text-align: justify; line-height: 1.2" ><small>
 We evaluate the folk wisdom that algorithmic decision rules trained on data produced by biased human decision-makers necessarily reflect this bias. We consider a setting where training labels are only generated if a biased decision-maker takes a particular action, and so "biased" training data arise due to discriminatory selection into the training data. In our baseline model, the more biased the decision-maker is against a group, the more the algorithmic decision rule favors that group. We refer to this phenomenon as bias reversal. We then clarify the conditions that give rise to bias reversal. Whether a prediction algorithm reverses or inherits bias depends critically on how the decision-maker affects the training data as well as the label used in training. We illustrate our main theoretical results in a simulation study applied to the New York City Stop, Question and Frisk dataset.
