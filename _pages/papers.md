@@ -54,7 +54,7 @@ This paper develops a finite-population, design-based theory of uncertainty for 
 # <center> Published and Forthcoming Papers </center>
 - - -
 
-**(Empirical) Bayes Approaches to Parallel Trends** (with Soonwoo Kwon). 2024. *Forthcoming, AEA P&P* <br/>
+**[(Empirical) Bayes Approaches to Parallel Trends** (with Soonwoo Kwon)](https://www.aeaweb.org/articles?id=10.1257/pandp.20241048). 2024. *AEA P&P* <br/>
 <small>[ <a href="#/" onclick="visib('honestbayespp')">Abstract</a> | [Draft][honestbayespp-main] | [Appendix][honestbayespp-appendix] ] </small>
 
 <div id="honestbayespp" style="display: none; text-align: justify; line-height: 1.2" ><small>
