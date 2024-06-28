@@ -179,7 +179,7 @@ This paper discusses two important limitations of the common practice of testing
 This paper extends Becker (1957)'s outcome test of discrimination to settings where a (human or algorithmic) decision-maker produces a ranked list of candidates. Ranked lists are particularly relevant in the context of online platforms that produce search results or feeds, and also arise when human decisionmakers express ordinal preferences over a list of candidates. We show that non-discrimination implies a system of moment inequalities, which intuitively impose that one cannot permute the position of a lower-ranked candidate from one group with a higher-ranked candidate from a second group and systematically improve the objective. Moreover, we show that that these moment inequalities are the \textit{only} testable implications of non-discrimination when the auditor observes only outcomes and group membership by rank. We show how to statistically test the implied inequalities, and validate our approach in an application using data from LinkedIn.
 </small><br><br/></div>
 
-[outcometest-draft]: https://facctconference.org/static/pdfs_2022/facct22-29.pdf
+[outcometest-draft]: {{ site.baseurl }}{% link assets/files/outcome_test.pdf %}
 
 
 
