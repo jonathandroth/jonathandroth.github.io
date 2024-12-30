@@ -12,11 +12,11 @@ main:
   - title: "DiD Resources"
     url: /did-resources/
     
-  - title: "Undergrad Econometrics"
-    url: https://github.com/jonathandroth/Econ1630_Github
-
   - title: "Poppy"
     url: /poppy/
+    
+  - title: "Undergrad Econometrics Class"
+    url: https://github.com/jonathandroth/Econ1630_Github
 
   - title: "Office Hours"
     url: /OfficeHours/
