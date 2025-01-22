@@ -14,7 +14,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> Recent Working Papers </center>
 - - -
 
-**Testing Mechanisms** (with Soonwoo Kwon). 2024. *Revisions requested, Review of Economic Studies* <br/>
+**Testing Mechanisms** (with Soonwoo Kwon). 2024. *Revise and resubmit, Review of Economic Studies* <br/>
 <small>[ <a href="#/" onclick="visib('testingmechs')">Abstract</a> | [Draft][testingmechs-main] ] </small>
 
 <div id="testingmechs" style="display: none; text-align: justify; line-height: 1.2" ><small>
@@ -41,7 +41,7 @@ This note discusses the interpretation of event-study plots produced by recent d
 
 
 
-**Design-Based Uncertainty for Quasi-Experiments** (with Ashesh Rambachan). 2024. *Reject and resubmit, JASA*. <br/>
+**Design-Based Uncertainty for Quasi-Experiments** (with Ashesh Rambachan). 2024. *Revise and resubmit, JASA*. <br/>
 <small>[ <a href="#/" onclick="visib('design-based')">Abstract</a> | [Draft][design-based-arxiv] ] </small>
 
 <div id="design-based" style="display: none; text-align: justify; line-height: 1.2" ><small>
