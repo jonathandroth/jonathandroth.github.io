@@ -15,7 +15,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 - - -
 
 **Testing Mechanisms** (with Soonwoo Kwon). 2024. *Revise and resubmit, Review of Economic Studies* <br/>
-<small>[ <a href="#/" onclick="visib('testingmechs')">Abstract</a> | [Draft][testingmechs-main] ] </small>
+<small>[ <a href="#/" onclick="visib('testingmechs')">Abstract</a> | [Draft][testingmechs-main] | [R Package][testingmechs-package] ] </small>
 
 <div id="testingmechs" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
@@ -25,6 +25,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </small><br><br/></div>
 [testingmechs-main]:{{ site.baseurl }}{% link assets/files/TestingMechanisms_Draft.pdf %}
+
+[testingmechs-package]:https://github.com/jonathandroth/TestMechs?tab=readme-ov-file#testmechs
 
 
 **Interpreting Event-Studies from Recent Difference-in-Differences Methods**. 2024. <br/>
