@@ -43,7 +43,7 @@ This note discusses the interpretation of event-study plots produced by recent d
 
 
 
-**Design-Based Uncertainty for Quasi-Experiments** (with Ashesh Rambachan). 2024. *Revise and resubmit, JASA*. <br/>
+**Design-Based Uncertainty for Quasi-Experiments** (with Ashesh Rambachan). 2024. *Minor revisions requested (3rd round), JASA*. <br/>
 <small>[ <a href="#/" onclick="visib('design-based')">Abstract</a> | [Draft][design-based-arxiv] ] </small>
 
 <div id="design-based" style="display: none; text-align: justify; line-height: 1.2" ><small>
