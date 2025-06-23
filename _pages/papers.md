@@ -42,8 +42,10 @@ This note discusses the interpretation of event-study plots produced by recent d
 [heteventstudies-draft]:{{ site.baseurl }}{% link assets/files/HetEventStudies.pdf %}
 
 
+# <center> Published and Forthcoming Papers </center>
+- - -
 
-**Design-Based Uncertainty for Quasi-Experiments** (with Ashesh Rambachan). 2024. *Minor revisions requested (3rd round), JASA*. <br/>
+**Design-Based Uncertainty for Quasi-Experiments** (with Ashesh Rambachan). *Forthcoming, Journal of the American Statistical Association*. <br/>
 <small>[ <a href="#/" onclick="visib('design-based')">Abstract</a> | [Draft][design-based-arxiv] ] </small>
 
 <div id="design-based" style="display: none; text-align: justify; line-height: 1.2" ><small>
@@ -56,10 +58,6 @@ Taken together, our results establish a rigorous foundation for quasi-experiment
 </small><br><br/></div>
 [design-based-arxiv]: https://arxiv.org/pdf/2008.00602.pdf
 
-
-
-# <center> Published and Forthcoming Papers </center>
-- - -
 
 [**(Empirical) Bayes Approaches to Parallel Trends**](https://www.aeaweb.org/articles?id=10.1257/pandp.20241048) (with Soonwoo Kwon). 2024. *AEA P&P* <br/>
 <small>[ <a href="#/" onclick="visib('honestbayespp')">Abstract</a> | [Draft][honestbayespp-main] | [Appendix][honestbayespp-appendix] ] </small>
