@@ -14,7 +14,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> Recent Working Papers </center>
 - - -
 
-**Testing Mechanisms** (with Soonwoo Kwon). 2025. (First version: 2024) *Revise and resubmit, Review of Economic Studies* <br/>
+**Testing Mechanisms** (with Soonwoo Kwon). 2025. (First version: 2024) *Conditionally accepted, Review of Economic Studies* <br/>
 <small>[ <a href="#/" onclick="visib('testingmechs')">Abstract</a> | [Draft][testingmechs-main] | [R Package][testingmechs-package] ] </small>
 
 <div id="testingmechs" style="display: none; text-align: justify; line-height: 1.2" ><small>
