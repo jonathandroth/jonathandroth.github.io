@@ -14,6 +14,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> Recent Working Papers </center>
 - - -
 
+**Evaluating Counterfactual Policies Using Instruments** (with Michal Kolesár and José Luis Montiel Olea). 2025. 
+<br/>
+<small>[ <a href="#/" onclick="visib('evalcf')">Abstract</a> | [Draft][evalcf] ] </small>
+
+<div id="evalcf" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+We study settings in which a researcher has an instrumental variable (IV) and
+seeks to evaluate the effects of a counterfactual policy that alters treatment
+assignment, such as a directive encouraging randomly assigned judges to release more
+defendants. We develop a general and computationally tractable framework for
+computing sharp bounds on the effects of such policies. Our approach does not
+require the often tenuous IV monotonicity assumption. Moreover, for an important
+class of policy exercises, we show that IV monotonicity---while crucial for a
+causal interpretation of two-stage least squares---does not tighten the bounds on
+the counterfactual policy impact. We analyze the identifying power of
+alternative restrictions, including the policy invariance assumption used in the
+marginal treatment effect literature, and develop a relaxation of this
+assumption. We illustrate our framework using applications to quasi-random
+assignment of bail judges in New York City and prosecutors in Massachusetts.
+
+</small><br><br/></div>
+
+[evalcf]:{{ site.baseurl }}{% link assets/files/EvaluatingCounterfactualsWithIV.pdf %}
+
+
 **Testing Monotonicity in a Finite Population** (with Jiafeng Chen and Jann Spiess). 2025. 
 <br/>
 <small>[ <a href="#/" onclick="visib('testingmon')">Abstract</a> | [Draft][testingmon] ] </small>
