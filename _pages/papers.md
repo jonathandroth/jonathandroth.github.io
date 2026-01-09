@@ -39,22 +39,13 @@ assignment of bail judges in New York City and prosecutors in Massachusetts.
 [evalcf]:{{ site.baseurl }}{% link assets/files/EvaluatingCounterfactualsWithIV.pdf %}
 
 
-**Testing Monotonicity in a Finite Population** (with Jiafeng Chen and Jann Spiess). 2025. 
+**Testing Monotonicity in a Finite Population** (with Jiafeng Chen and Jann Spiess). 2026 (First version: 2025). 
 <br/>
 <small>[ <a href="#/" onclick="visib('testingmon')">Abstract</a> | [Draft][testingmon] ] </small>
 
 <div id="testingmon" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
-We consider the extent to which we can learn from a completely randomized experiment
-whether everyone has treatment effects that are weakly of the same sign, a condition we
-call monotonicity. From a classical sampling perspective, it is well-known that monotonicity is untestable. By contrast, we show from the
-design-based perspective---in which the units in the population are fixed and only
-treatment assignment is stochastic---that the distribution of treatment effects in the
-finite population (and hence whether monotonicity holds) is formally identified. We
-argue, however, that the usual definition of identification is unnatural in the
-design-based setting because it imagines knowing the distribution of outcomes over different treatment assignments for the same units. We thus evaluate the
-informativeness of the data by the extent to which it enables frequentist testing and
-Bayesian updating. We show that frequentist tests can have nontrivial power against some alternatives, but power is generically limited. Likewise, we show that there exist (non-degenerate) Bayesian priors that never update about whether monotonicity holds. We conclude that, despite the formal identification result, the ability to learn about monotonicity from data in practice is severely limited.
+We consider the extent to which we can learn from a completely randomized experiment whether all individuals have treatment effects that are weakly of the same sign, a condition we call monotonicity. From a classical sampling perspective, it is well-known that monotonicity is not falsifiable. By contrast, we show from the design-based perspective---in which the units in the population are fixed and only treatment assignment is stochastic---that the distribution of treatment effects in the finite population (and hence whether monotonicity holds) is formally identified. We argue, however, that the usual definition of identification is unnatural in the design-based setting because it imagines knowing the distribution of outcomes over different treatment assignments for the same units. We thus evaluate the informativeness of the data by the extent to which it enables frequentist testing and Bayesian updating. We show that frequentist tests can have nontrivial power against some alternatives, but power is generically limited. Likewise, we show that there exist (non-degenerate) Bayesian priors that never update about whether monotonicity holds. We conclude that, despite the formal identification result, the ability to learn about monotonicity from data in practice is severely limited.
 
 </small><br><br/></div>
 
