@@ -70,21 +70,22 @@ Economists are often interested in the mechanisms by which a treatment affects a
 [testingmechs-package]:https://github.com/jonathandroth/TestMechs?tab=readme-ov-file#testmechs
 
 
-**Interpreting Event-Studies from Recent Difference-in-Differences Methods**. 2024. <br/>
+
+
+# <center> Published and Forthcoming Papers </center>
+- - -
+
+**Interpreting Event-Studies from Recent Difference-in-Differences Methods**. Forthcoming, *Japanese Economic Review (special issue)*. <br/>
 <small>[ <a href="#/" onclick="visib('heteventstudies')">Abstract</a> | [Draft][heteventstudies-draft] ] </small>
 
 <div id="heteventstudies" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
 
-This note discusses the interpretation of event-study plots produced by recent difference-in-differences methods. I show that even when specialized to the case of non-staggered treatment timing, the default plots produced by software for three of the most popular recent methods (de Chaisemartin and D’Haultfœuille, 2020; Callaway and SantAnna, 
-2021; Borusyak, Jaravel and Spiess, 2024) do not match those of traditional two-way fixed effects (TWFE) event-studies: the new methods may show a kink or jump at the time of treatment even when the TWFE event-study shows a straight line. This difference stems from the fact that the new methods construct the pre-treatment coefficients asymmetrically from the post-treatment coefficients. As a result, visual heuristics for analyzing TWFE event-study plots should not be immediately applied to those from these methods. I conclude with practical recommendations for constructing and interpreting event-study plots when using these methods.
+This note discusses the interpretation of event-study plots produced by recent difference-in-differences methods. I show that even when specialized to the case of non-staggered treatment timing, the default plots produced by software for several of the most popular recent methods do not match those of traditional two-way fixed effects (TWFE) event-studies. The plots produced by the new methods may show a kink or jump at the time of treatment even when the TWFE event-study shows a straight line. This difference stems from the fact that the new methods construct the pre-treatment coefficients asymmetrically from the post-treatment coefficients. As a result, visual heuristics for evaluating violations of parallel trends using TWFE event-study plots should not be immediately applied to those from these methods. I conclude with practical recommendations for constructing and interpreting event-study plots when using these methods.
 
 </small><br><br/></div>
 [heteventstudies-draft]:{{ site.baseurl }}{% link assets/files/HetEventStudies.pdf %}
 
-
-# <center> Published and Forthcoming Papers </center>
-- - -
 
 **Design-Based Uncertainty for Quasi-Experiments** (with Ashesh Rambachan). *Forthcoming, Journal of the American Statistical Association*. <br/>
 <small>[ <a href="#/" onclick="visib('design-based')">Abstract</a> | [Draft][design-based-arxiv] ] </small>
