@@ -11,7 +11,7 @@ I have done a lot of work on difference-in-differences (DiD), and have tried to 
 
 ## DiD Course
 
-I have been teaching a one-day course on recent DiD methods for Mixtape Sessions. All of my teaching material is available on [Github](https://github.com/Mixtape-Sessions/Advanced-DID). 
+I have given several one-day courses on recent DiD methods for various institutions and through Mixtape Sessions. All of my teaching material is available on [Github](https://github.com/Mixtape-Sessions/Advanced-DID). 
 
 This includes ***slides*** for three lectures -- feel free to use in these in your teaching (with proper attritubution): 
 
@@ -27,8 +27,9 @@ There are also two ***coding exercises*** that show how these methods can be use
 
 * **Violations of PT coding exercise**: [Instructions](https://github.com/Mixtape-Sessions/Advanced-DID/tree/main/Exercises/Exercise-2#exercise-2-violations-of-parallel-trends) [R solutions](https://raw.githack.com/Mixtape-Sessions/Advanced-DID/main/Exercises/Exercise-2/Solutions/medicaid-analysis-pt-violations-solutions-R.html) [Stata solutions](https://raw.githack.com/Mixtape-Sessions/Advanced-DID/main/Exercises/Exercise-2/Solutions/medicaid-analysis-pt-violations-solutions-stata.html)
 
+***Recordings*** for a virtual workshop I gave at the University of Michigan are available on Youtube: [Part 1](https://www.youtube.com/watch?v=A4_7nx_xYqg) [Part 2](https://www.youtube.com/watch?v=-C3PQMwN1fg)
 
-If you like this material, you can see when I'm next teaching the course and sign up [here](https://www.mixtapesessions.io/sessions/). 
+
 
 ## DiD Review Paper
 
