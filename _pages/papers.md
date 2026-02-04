@@ -75,7 +75,7 @@ Economists are often interested in the mechanisms by which a treatment affects a
 # <center> Published and Forthcoming Papers </center>
 - - -
 
-**Interpreting Event-Studies from Recent Difference-in-Differences Methods**. Forthcoming, *Japanese Economic Review (special issue)*. <br/>
+[**Interpreting Event-Studies from Recent Difference-in-Differences Methods**](https://link.springer.com/article/10.1007/s42973-026-00235-x). 2026. *Japanese Economic Review (special issue)*. <br/>
 <small>[ <a href="#/" onclick="visib('heteventstudies')">Abstract</a> | [Draft][heteventstudies-draft] ] </small>
 
 <div id="heteventstudies" style="display: none; text-align: justify; line-height: 1.2" ><small>
@@ -87,7 +87,7 @@ This note discusses the interpretation of event-study plots produced by recent d
 [heteventstudies-draft]:{{ site.baseurl }}{% link assets/files/HetEventStudies.pdf %}
 
 
-**Design-Based Uncertainty for Quasi-Experiments** (with Ashesh Rambachan). *Forthcoming, Journal of the American Statistical Association*. <br/>
+[**Design-Based Uncertainty for Quasi-Experiments**](https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2526700#abstract) (with Ashesh Rambachan). *Forthcoming, Journal of the American Statistical Association*. <br/>
 <small>[ <a href="#/" onclick="visib('design-based')">Abstract</a> | [Draft][design-based-arxiv] ] </small>
 
 <div id="design-based" style="display: none; text-align: justify; line-height: 1.2" ><small>
