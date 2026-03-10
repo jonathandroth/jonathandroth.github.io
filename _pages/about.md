@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an Associate Professor of Economics (with tenure) at Brown University. 
+I am an Associate Professor of Economics (with tenure) at Brown University. I will be Professor of Economics beginning in July 2026.
 
 My primary research interests are in econometrics, with a focus on causal inference. I have also worked on topics in labor economics and algorithmic fairness.
 

@@ -54,7 +54,12 @@ We consider the extent to which we can learn from a completely randomized experi
 
 
 
-**Testing Mechanisms** (with Soonwoo Kwon). 2025. (First version: 2024) *Conditionally accepted, Review of Economic Studies* <br/>
+
+
+# <center> Published and Forthcoming Papers </center>
+- - -
+
+**Testing Mechanisms** (with Soonwoo Kwon). *Forthcoming, Review of Economic Studies* <br/>
 <small>[ <a href="#/" onclick="visib('testingmechs')">Abstract</a> | [Draft][testingmechs-main] | [R Package][testingmechs-package] ] </small>
 
 <div id="testingmechs" style="display: none; text-align: justify; line-height: 1.2" ><small>
@@ -71,9 +76,6 @@ Economists are often interested in the mechanisms by which a treatment affects a
 
 
 
-
-# <center> Published and Forthcoming Papers </center>
-- - -
 
 [**Interpreting Event-Studies from Recent Difference-in-Differences Methods**](https://link.springer.com/article/10.1007/s42973-026-00235-x). 2026. *Japanese Economic Review (special issue)*. <br/>
 <small>[ <a href="#/" onclick="visib('heteventstudies')">Abstract</a> | [Draft][heteventstudies-draft] ] </small>
