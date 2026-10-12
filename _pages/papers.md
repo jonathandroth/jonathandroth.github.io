@@ -16,7 +16,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 **Simple Standard Errors for Complicated (Quasi-)Experimental Designs** (with Sylvia Klosin). 2026 (First version: 2026). 
 <br/>
-<small>[ <a href="#/" onclick="visib('ccpaper')">Abstract</a> | [Draft][https://arxiv.org/abs/2610.12674] ] </small>
+<small>[ <a href="#/" onclick="visib('ccpaper')">Abstract</a> | [Draft](https://arxiv.org/abs/2610.12674) ] </small>
 
 <div id="ccpaper" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
