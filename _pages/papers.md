@@ -143,13 +143,16 @@ We consider Bayes and Empirical Bayes (EB) approaches for dealing with violation
 
 **[Logs with zeros? Some problems and solutions](https://academic.oup.com/qje/article/139/2/891/7473710?utm_source=etoc&utm_campaign=qje&utm_medium=email)** 
 [Previously titled "Log-like? Identified ATEs defined with zero-valued outcomes are (arbitrarily) scale-dependent"] (with Jiafeng Chen). 2024. *Quarterly Journal of Economics* <br/>
-<small>[ <a href="#/" onclick="visib('log0')">Abstract</a> | [Draft][log0-draft] ] </small>
+<small>[ <a href="#/" onclick="visib('log0')">Abstract</a> | [Draft][log0-draft] [Corrigendum][log0-corrigendum] ] </small>
 
 <div id="log0" style="display: none; text-align: justify; line-height: 1.2" ><small>
 When studying an outcome Y that is weakly-positive but can equal zero (e.g., earnings), researchers frequently estimate an average treatment effect (ATE) for a "log-like" transformation that behaves like log(Y) for large Y but is defined at zero (e.g., log(1+Y), arcsinh(Y)). We argue that ATEs for log-like transformations should not be interpreted as approximating percentage effects, since unlike a percentage, they depend on the units of the outcome. In fact, we show that if the treatment affects the extensive margin, one can obtain a treatment effect of any magnitude simply by re-scaling the units of Y before taking the log-like transformation. This arbitrary unit-dependence arises because an individual-level percentage effect is not well-defined for individuals whose outcome changes from zero to non-zero when receiving treatment, and the units of the outcome implicitly determine how much weight the ATE for a log-like transformation places on the extensive margin. We further establish a trilemma: when the outcome can equal zero, there is no treatment effect parameter that is an average of individual-level treatment effects, unit-invariant, and point-identified. We discuss several alternative approaches that may be sensible in settings with an intensive and extensive margin, including (i) expressing the ATE in levels as a percentage (e.g., using Poisson regression), (ii) explicitly calibrating the value placed on the intensive and extensive margins, and (iii) estimating separate effects for the two margins (e.g., using Lee bounds). We illustrate these approaches in three empirical applications.
 </small><br><br/></div>
 
 [log0-draft]:{{ site.baseurl }}{% link assets/files/LogUniqueHOD0_Draft_Accepted.pdf %}
+[log0-corrigendum]:{{ site.baseurl }}{% link assets/files/LogUniqueHOD0-corrigendum.pdf %}
+
+
 
 **[Efficient Estimation for Staggered Rollout Designs](https://www.journals.uchicago.edu/doi/abs/10.1086/726581)** (with Pedro Sant'Anna). 2023.
 *Journal of Political Economy Microeconomics*
