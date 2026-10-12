@@ -14,6 +14,38 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> Recent Working Papers </center>
 - - -
 
+**Simple Standard Errors for Complicated (Quasi-)Experimental Designs** (with Sylvia Klosin). 2026 (First version: 2026). 
+<br/>
+<small>[ <a href="#/" onclick="visib('ccpaper')">Abstract</a> | [Draft][https://arxiv.org/abs/2610.12674] ] </small>
+
+<div id="ccpaper" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+We develop standard errors for estimates of causal effects in settings where
+the distribution of treatment exposures is known but potentially exhibits
+complicated dependence patterns across units. Such dependence arises, for
+example, in settings with spillovers/interference across units or when the
+treatment assignment is spatially correlated. Our variance estimator
+generalizes several properties of the Neyman variance estimator for completely
+randomized experiments to general designs: it is unbiased for an upper bound on
+the variance from the design-based perspective; the conservativeness of this
+upper bound depends on the heterogeneity of treatment effects; and it is also
+valid under certain forms of super-population sampling of the potential
+outcomes. Our estimator reduces to standard approaches in simple designs, such
+as the Neyman variance estimator in completely randomized experiments and the
+cluster-robust variance estimator in cluster-randomized experiments. We show
+that the proposed estimator is admissible among the class of quadratic-form
+variance estimators, and derive asymptotic conditions under which it is
+consistent for an upper bound on the asymptotic variance of the treatment
+effect estimator. In simulations and applications based on two empirical
+studies, one with peer effects and another with a spatially correlated
+treatment, we find that the proposed variance estimator performs well, and in
+some cases yields standard errors that are 2-3 times shorter than those of
+existing alternatives.
+
+</small><br><br/></div>
+
+
+
 **Evaluating Counterfactual Policies Using Instruments** (with Michal Kolesár and José Luis Montiel Olea). 2026 (First version: 2025). *Revisions requested, Econometrica*
 <br/>
 <small>[ <a href="#/" onclick="visib('evalcf')">Abstract</a> | [Draft][evalcf] ] </small>
@@ -81,7 +113,7 @@ This note discusses the interpretation of event-study plots produced by recent d
 [heteventstudies-draft]:{{ site.baseurl }}{% link assets/files/HetEventStudies.pdf %}
 
 
-[**Design-Based Uncertainty for Quasi-Experiments**](https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2526700#abstract) (with Ashesh Rambachan). *Forthcoming, Journal of the American Statistical Association*. <br/>
+[**Design-Based Uncertainty for Quasi-Experiments**](https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2526700#abstract) (with Ashesh Rambachan). 2026. *Journal of the American Statistical Association*. <br/>
 <small>[ <a href="#/" onclick="visib('design-based')">Abstract</a> | [Draft][design-based-arxiv] ] </small>
 
 <div id="design-based" style="display: none; text-align: justify; line-height: 1.2" ><small>
